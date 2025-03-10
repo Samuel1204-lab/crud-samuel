@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+ }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.lista-clientes{
+    color: #ff0000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #007BFF;
+    color: rgb(255, 242, 242);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #007BFF;
+    color: white;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+a.editar {
+    background: #28a745;
+}
+
+a.deletar {
+    background: #dc3545;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container, form, table {
+        width: 100%;
+    }
+    input {
+        font-size: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+}
